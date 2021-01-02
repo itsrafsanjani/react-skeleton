@@ -20,7 +20,7 @@ const User = () => {
             <div className="profile">
                 <h3>{ profile.username }</h3>
                 <p>{ profile.email }</p>
-                <a href={`http://:${ profile.email }`}>{ profile.email }</a>
+                <a href={`http://${ profile.email }`}>{ profile.email }</a>
             </div>
         )}
 
